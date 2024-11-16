@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T18:40:12 IST" name="Suite" finished-at="2024-11-16T18:40:38 IST" duration-ms="26419">
+    <groups>
+      <group name="Sanity">
+        <method signature="AmazonPageVerifyTests.navigateToRegionUpdatePageAndVerify()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" name="navigateToRegionUpdatePageAndVerify" class="com.amazon.testCases.AmazonPageVerifyTests"/>
+        <method signature="RegionUpdateTests.goToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" name="goToWebsite" class="com.amazon.testCases.RegionUpdateTests"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="RegionUpdateTests.goToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" name="goToWebsite" class="com.amazon.testCases.RegionUpdateTests"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="AmazonPageVerifyTests.verifyLogo()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" name="verifyLogo" class="com.amazon.testCases.AmazonPageVerifyTests"/>
+        <method signature="RegionUpdateTests.goToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" name="goToWebsite" class="com.amazon.testCases.RegionUpdateTests"/>
+        <method signature="RegionUpdateTests.verifyGoToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" name="verifyGoToWebsite" class="com.amazon.testCases.RegionUpdateTests"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-11-16T18:40:12 IST" name="Test" finished-at="2024-11-16T18:40:38 IST" duration-ms="26419">
+      <class name="com.amazon.testCases.RegionUpdateTests">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:12 IST" name="beforeSuite" finished-at="2024-11-16T18:40:12 IST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:12 IST" name="setUp" finished-at="2024-11-16T18:40:17 IST" duration-ms="5605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="goToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:17 IST" name="goToWebsite" finished-at="2024-11-16T18:40:18 IST" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToWebsite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:19 IST" name="tearDown" finished-at="2024-11-16T18:40:19 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:19 IST" name="setUp" finished-at="2024-11-16T18:40:23 IST" duration-ms="4715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyGoToWebsite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:23 IST" name="verifyGoToWebsite" finished-at="2024-11-16T18:40:24 IST" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGoToWebsite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:24 IST" name="tearDown" finished-at="2024-11-16T18:40:24 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.amazon.testCases.RegionUpdateTests@1bd4fdd]" started-at="2024-11-16T18:40:38 IST" name="afterSuite" finished-at="2024-11-16T18:40:39 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.amazon.testCases.RegionUpdateTests -->
+      <class name="com.amazon.testCases.AmazonPageVerifyTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:24 IST" name="setUp" finished-at="2024-11-16T18:40:28 IST" duration-ms="3972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="navigateToRegionUpdatePageAndVerify()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:28 IST" name="navigateToRegionUpdatePageAndVerify" finished-at="2024-11-16T18:40:34 IST" duration-ms="5675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToRegionUpdatePageAndVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:34 IST" name="tearDown" finished-at="2024-11-16T18:40:34 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:34 IST" name="setUp" finished-at="2024-11-16T18:40:38 IST" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:38 IST" name="verifyLogo" finished-at="2024-11-16T18:40:38 IST" duration-ms="180" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.amazon.testCases.AmazonPageVerifyTests.verifyLogo(AmazonPageVerifyTests.java:34)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.amazon.testCases.AmazonPageVerifyTests@1283bb96]" started-at="2024-11-16T18:40:38 IST" name="tearDown" finished-at="2024-11-16T18:40:38 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.amazon.testCases.AmazonPageVerifyTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
